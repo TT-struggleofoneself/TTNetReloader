@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2C79C51CCF536A007B5535 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79C41CCF536A007B5535 /* main.m */; };
+		EB2C79C81CCF536A007B5535 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79C71CCF536A007B5535 /* AppDelegate.m */; };
+		EB2C79CB1CCF536A007B5535 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79CA1CCF536A007B5535 /* ViewController.m */; };
+		EB2C79CE1CCF536A007B5535 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C79CC1CCF536A007B5535 /* Main.storyboard */; };
+		EB2C79D01CCF536A007B5535 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2C79CF1CCF536A007B5535 /* Assets.xcassets */; };
+		EB2C79D31CCF536A007B5535 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2C79D11CCF536A007B5535 /* LaunchScreen.storyboard */; };
+		EB2C79DE1CCF536A007B5535 /* TTNetReloaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79DD1CCF536A007B5535 /* TTNetReloaderTests.m */; };
+		EB2C79E91CCF536A007B5535 /* TTNetReloaderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79E81CCF536A007B5535 /* TTNetReloaderUITests.m */; };
+		EB2C79F91CCF539B007B5535 /* TTNetReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = EB2C79F81CCF539B007B5535 /* TTNetReloader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2C79DA1CCF536A007B5535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2C79B81CCF536A007B5535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2C79BF1CCF536A007B5535;
+			remoteInfo = TTNetReloader;
+		};
+		EB2C79E51CCF536A007B5535 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2C79B81CCF536A007B5535 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2C79BF1CCF536A007B5535;
+			remoteInfo = TTNetReloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2C79C01CCF536A007B5535 /* TTNetReloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTNetReloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2C79C41CCF536A007B5535 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB2C79C61CCF536A007B5535 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB2C79C71CCF536A007B5535 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB2C79C91CCF536A007B5535 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB2C79CA1CCF536A007B5535 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB2C79CD1CCF536A007B5535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2C79CF1CCF536A007B5535 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB2C79D21CCF536A007B5535 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB2C79D41CCF536A007B5535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2C79D91CCF536A007B5535 /* TTNetReloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTNetReloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2C79DD1CCF536A007B5535 /* TTNetReloaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNetReloaderTests.m; sourceTree = "<group>"; };
+		EB2C79DF1CCF536A007B5535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2C79E41CCF536A007B5535 /* TTNetReloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTNetReloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2C79E81CCF536A007B5535 /* TTNetReloaderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTNetReloaderUITests.m; sourceTree = "<group>"; };
+		EB2C79EA1CCF536A007B5535 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2C79F71CCF539B007B5535 /* TTNetReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTNetReloader.h; sourceTree = "<group>"; };
+		EB2C79F81CCF539B007B5535 /* TTNetReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTNetReloader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2C79BD1CCF536A007B5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79D61CCF536A007B5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79E11CCF536A007B5535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2C79B71CCF536A007B5535 = {
+			isa = PBXGroup;
+			children = (
+				EB2C79C21CCF536A007B5535 /* TTNetReloader */,
+				EB2C79DC1CCF536A007B5535 /* TTNetReloaderTests */,
+				EB2C79E71CCF536A007B5535 /* TTNetReloaderUITests */,
+				EB2C79C11CCF536A007B5535 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2C79C11CCF536A007B5535 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79C01CCF536A007B5535 /* TTNetReloader.app */,
+				EB2C79D91CCF536A007B5535 /* TTNetReloaderTests.xctest */,
+				EB2C79E41CCF536A007B5535 /* TTNetReloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2C79C21CCF536A007B5535 /* TTNetReloader */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79F61CCF539B007B5535 /* TTNetReloader */,
+				EB2C79C61CCF536A007B5535 /* AppDelegate.h */,
+				EB2C79C71CCF536A007B5535 /* AppDelegate.m */,
+				EB2C79C91CCF536A007B5535 /* ViewController.h */,
+				EB2C79CA1CCF536A007B5535 /* ViewController.m */,
+				EB2C79CC1CCF536A007B5535 /* Main.storyboard */,
+				EB2C79CF1CCF536A007B5535 /* Assets.xcassets */,
+				EB2C79D11CCF536A007B5535 /* LaunchScreen.storyboard */,
+				EB2C79D41CCF536A007B5535 /* Info.plist */,
+				EB2C79C31CCF536A007B5535 /* Supporting Files */,
+			);
+			path = TTNetReloader;
+			sourceTree = "<group>";
+		};
+		EB2C79C31CCF536A007B5535 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79C41CCF536A007B5535 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB2C79DC1CCF536A007B5535 /* TTNetReloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79DD1CCF536A007B5535 /* TTNetReloaderTests.m */,
+				EB2C79DF1CCF536A007B5535 /* Info.plist */,
+			);
+			path = TTNetReloaderTests;
+			sourceTree = "<group>";
+		};
+		EB2C79E71CCF536A007B5535 /* TTNetReloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79E81CCF536A007B5535 /* TTNetReloaderUITests.m */,
+				EB2C79EA1CCF536A007B5535 /* Info.plist */,
+			);
+			path = TTNetReloaderUITests;
+			sourceTree = "<group>";
+		};
+		EB2C79F61CCF539B007B5535 /* TTNetReloader */ = {
+			isa = PBXGroup;
+			children = (
+				EB2C79F71CCF539B007B5535 /* TTNetReloader.h */,
+				EB2C79F81CCF539B007B5535 /* TTNetReloader.m */,
+			);
+			path = TTNetReloader;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2C79BF1CCF536A007B5535 /* TTNetReloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2C79ED1CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloader" */;
+			buildPhases = (
+				EB2C79BC1CCF536A007B5535 /* Sources */,
+				EB2C79BD1CCF536A007B5535 /* Frameworks */,
+				EB2C79BE1CCF536A007B5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTNetReloader;
+			productName = TTNetReloader;
+			productReference = EB2C79C01CCF536A007B5535 /* TTNetReloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2C79D81CCF536A007B5535 /* TTNetReloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2C79F01CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloaderTests" */;
+			buildPhases = (
+				EB2C79D51CCF536A007B5535 /* Sources */,
+				EB2C79D61CCF536A007B5535 /* Frameworks */,
+				EB2C79D71CCF536A007B5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2C79DB1CCF536A007B5535 /* PBXTargetDependency */,
+			);
+			name = TTNetReloaderTests;
+			productName = TTNetReloaderTests;
+			productReference = EB2C79D91CCF536A007B5535 /* TTNetReloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB2C79E31CCF536A007B5535 /* TTNetReloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2C79F31CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloaderUITests" */;
+			buildPhases = (
+				EB2C79E01CCF536A007B5535 /* Sources */,
+				EB2C79E11CCF536A007B5535 /* Frameworks */,
+				EB2C79E21CCF536A007B5535 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2C79E61CCF536A007B5535 /* PBXTargetDependency */,
+			);
+			name = TTNetReloaderUITests;
+			productName = TTNetReloaderUITests;
+			productReference = EB2C79E41CCF536A007B5535 /* TTNetReloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2C79B81CCF536A007B5535 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = TT_code;
+				TargetAttributes = {
+					EB2C79BF1CCF536A007B5535 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					EB2C79D81CCF536A007B5535 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB2C79BF1CCF536A007B5535;
+					};
+					EB2C79E31CCF536A007B5535 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = EB2C79BF1CCF536A007B5535;
+					};
+				};
+			};
+			buildConfigurationList = EB2C79BB1CCF536A007B5535 /* Build configuration list for PBXProject "TTNetReloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2C79B71CCF536A007B5535;
+			productRefGroup = EB2C79C11CCF536A007B5535 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2C79BF1CCF536A007B5535 /* TTNetReloader */,
+				EB2C79D81CCF536A007B5535 /* TTNetReloaderTests */,
+				EB2C79E31CCF536A007B5535 /* TTNetReloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2C79BE1CCF536A007B5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2C79D31CCF536A007B5535 /* LaunchScreen.storyboard in Resources */,
+				EB2C79D01CCF536A007B5535 /* Assets.xcassets in Resources */,
+				EB2C79CE1CCF536A007B5535 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79D71CCF536A007B5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79E21CCF536A007B5535 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2C79BC1CCF536A007B5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2C79CB1CCF536A007B5535 /* ViewController.m in Sources */,
+				EB2C79C81CCF536A007B5535 /* AppDelegate.m in Sources */,
+				EB2C79C51CCF536A007B5535 /* main.m in Sources */,
+				EB2C79F91CCF539B007B5535 /* TTNetReloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79D51CCF536A007B5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2C79DE1CCF536A007B5535 /* TTNetReloaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2C79E01CCF536A007B5535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2C79E91CCF536A007B5535 /* TTNetReloaderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2C79DB1CCF536A007B5535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2C79BF1CCF536A007B5535 /* TTNetReloader */;
+			targetProxy = EB2C79DA1CCF536A007B5535 /* PBXContainerItemProxy */;
+		};
+		EB2C79E61CCF536A007B5535 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2C79BF1CCF536A007B5535 /* TTNetReloader */;
+			targetProxy = EB2C79E51CCF536A007B5535 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2C79CC1CCF536A007B5535 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2C79CD1CCF536A007B5535 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB2C79D11CCF536A007B5535 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2C79D21CCF536A007B5535 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2C79EB1CCF536A007B5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB2C79EC1CCF536A007B5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2C79EE1CCF536A007B5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTNetReloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB2C79EF1CCF536A007B5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TTNetReloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB2C79F11CCF536A007B5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTNetReloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTNetReloader.app/TTNetReloader";
+			};
+			name = Debug;
+		};
+		EB2C79F21CCF536A007B5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TTNetReloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTNetReloader.app/TTNetReloader";
+			};
+			name = Release;
+		};
+		EB2C79F41CCF536A007B5535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTNetReloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTNetReloader;
+			};
+			name = Debug;
+		};
+		EB2C79F51CCF536A007B5535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TTNetReloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.TTNetReloaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TTNetReloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2C79BB1CCF536A007B5535 /* Build configuration list for PBXProject "TTNetReloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2C79EB1CCF536A007B5535 /* Debug */,
+				EB2C79EC1CCF536A007B5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2C79ED1CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2C79EE1CCF536A007B5535 /* Debug */,
+				EB2C79EF1CCF536A007B5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB2C79F01CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2C79F11CCF536A007B5535 /* Debug */,
+				EB2C79F21CCF536A007B5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB2C79F31CCF536A007B5535 /* Build configuration list for PBXNativeTarget "TTNetReloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2C79F41CCF536A007B5535 /* Debug */,
+				EB2C79F51CCF536A007B5535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2C79B81CCF536A007B5535 /* Project object */;
+}
